@@ -1,0 +1,827 @@
+﻿Log file open, 12/01/16 20:01:11
+LogInit:Display: Running engine for game: BuildingEscape
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(1738501130) SRandInit(1738501130).
+LogTaskGraph: Started task graph with 5 named threads and 8 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 0.122467
+LogPluginManager: Loaded Plugin Paper2D, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/2D/Paper2D/Paper2D.uplugin
+LogPluginManager: Loaded Plugin LightPropagationVolume, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Blendables/LightPropagationVolume/LightPropagationVolume.uplugin
+LogPluginManager: Loaded Plugin BlankPlugin, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Developer/BlankPlugin/BlankPlugin.uplugin
+LogPluginManager: Loaded Plugin CodeLiteSourceCodeAccess, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Developer/CodeLiteSourceCodeAccess/CodeLiteSourceCodeAccess.uplugin
+LogPluginManager: Loaded Plugin GitSourceControl, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Developer/GitSourceControl/GitSourceControl.uplugin
+LogPluginManager: Loaded Plugin KDevelopSourceCodeAccess, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Developer/KDevelopSourceCodeAccess/KDevelopSourceCodeAccess.uplugin
+LogPluginManager: Loaded Plugin NullSourceCodeAccess, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Developer/NullSourceCodeAccess/NullSourceCodeAccess.uplugin
+LogPluginManager: Loaded Plugin OneSkyLocalizationService, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Developer/OneSkyLocalizationService/OneSkyLocalizationService.uplugin
+LogPluginManager: Loaded Plugin PerforceSourceControl, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Developer/PerforceSourceControl/PerforceSourceControl.uplugin
+LogPluginManager: Loaded Plugin SubversionSourceControl, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Developer/SubversionSourceControl/SubversionSourceControl.uplugin
+LogPluginManager: Loaded Plugin UObjectPlugin, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Developer/UObjectPlugin/UObjectPlugin.uplugin
+LogPluginManager: Loaded Plugin VisualStudioSourceCodeAccess, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Developer/VisualStudioSourceCodeAccess/VisualStudioSourceCodeAccess.uplugin
+LogPluginManager: Loaded Plugin XCodeSourceCodeAccess, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Developer/XCodeSourceCodeAccess/XCodeSourceCodeAccess.uplugin
+LogPluginManager: Loaded Plugin AudioCapture, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Editor/AudioCapture/AudioCapture.uplugin
+LogPluginManager: Loaded Plugin EpicSurvey, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Editor/EpicSurvey/EpicSurvey.uplugin
+LogPluginManager: Loaded Plugin MacGraphicsSwitching, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Editor/MacGraphicsSwitching/MacGraphicsSwitching.uplugin
+LogPluginManager: Loaded Plugin MobileLauncherProfileWizard, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Editor/MobileLauncherProfileWizard/MobileLauncherProfileWizard.uplugin
+LogPluginManager: Loaded Plugin PluginBrowser, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Editor/PluginBrowser/PluginBrowser.uplugin
+LogPluginManager: Loaded Plugin SpeedTreeImporter, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Editor/SpeedTreeImporter/SpeedTreeImporter.uplugin
+LogPluginManager: Loaded Plugin SuperSearchEditor, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Editor/SuperSearchEditor/SuperSearchEditor.uplugin
+LogPluginManager: Loaded Plugin AlembicImporter, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Experimental/AlembicImporter/AlembicImporter.uplugin
+LogPluginManager: Loaded Plugin BlueprintStats, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Experimental/BlueprintStats/BlueprintStats.uplugin
+LogPluginManager: Loaded Plugin CharacterAI, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Experimental/CharacterAI/CharacterAI.uplugin
+LogPluginManager: Loaded Plugin CodeEditor, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Experimental/CodeEditor/CodeEditor.uplugin
+LogPluginManager: Loaded Plugin CodeView, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Experimental/CodeView/CodeView.uplugin
+LogPluginManager: Loaded Plugin HTML5Networking, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Experimental/HTML5Networking/HTML5Networking.uplugin
+LogPluginManager: Loaded Plugin OSVR, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Experimental/OSVR/OSVR.uplugin
+LogPluginManager: Loaded Plugin Phya, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Experimental/Phya/Phya.uplugin
+LogPluginManager: Loaded Plugin SignificanceManager, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Experimental/SignificanceManager/SignificanceManager.uplugin
+LogPluginManager: Loaded Plugin SimpleHMD, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Experimental/SimpleHMD/SimpleHMD.uplugin
+LogPluginManager: Loaded Plugin StereoPanorama, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Experimental/StereoPanorama/StereoPanorama.uplugin
+LogPluginManager: Loaded Plugin StructBox, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Experimental/StructBox/StructBox.uplugin
+LogPluginManager: Loaded Plugin AndroidMedia, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Media/AndroidMedia/AndroidMedia.uplugin
+LogPluginManager: Loaded Plugin AvfMedia, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Media/AvfMedia/AvfMedia.uplugin
+LogPluginManager: Loaded Plugin MediaPlayerEditor, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Media/MediaPlayerEditor/MediaPlayerEditor.uplugin
+LogPluginManager: Loaded Plugin WmfMedia, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Media/WmfMedia/WmfMedia.uplugin
+LogPluginManager: Loaded Plugin MessagingDebugger, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Messaging/MessagingDebugger/MessagingDebugger.uplugin
+LogPluginManager: Loaded Plugin TcpMessaging, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Messaging/TcpMessaging/TcpMessaging.uplugin
+LogPluginManager: Loaded Plugin UdpMessaging, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Messaging/UdpMessaging/UdpMessaging.uplugin
+LogPluginManager: Loaded Plugin LevelSequenceEditor, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/MovieScene/LevelSequenceEditor/LevelSequenceEditor.uplugin
+LogPluginManager: Loaded Plugin MatineeToLevelSequence, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/MovieScene/MatineeToLevelSequence/MatineeToLevelSequence.uplugin
+LogPluginManager: Loaded Plugin NetcodeUnitTest, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/NetcodeUnitTest/NetcodeUnitTest/NetcodeUnitTest.uplugin
+LogPluginManager: Loaded Plugin NUTUnrealEngine4, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/NetcodeUnitTest/NUTUnrealEngine4/NUTUnrealEngine4.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemGameCircle, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Online/Android/OnlineSubsystemGameCircle/OnlineSubsystemGameCircle.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemGooglePlay, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Online/Android/OnlineSubsystemGooglePlay/OnlineSubsystemGooglePlay.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemIOS, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Online/IOS/OnlineSubsystemIOS/OnlineSubsystemIOS.uplugin
+LogPluginManager: Loaded Plugin OnlineFramework, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Online/OnlineFramework/OnlineFramework.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystem, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Online/OnlineSubsystem/OnlineSubsystem.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemAmazon, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Online/OnlineSubsystemAmazon/OnlineSubsystemAmazon.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemFacebook, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Online/OnlineSubsystemFacebook/OnlineSubsystemFacebook.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemNull, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Online/OnlineSubsystemNull/OnlineSubsystemNull.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemOculus, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Online/OnlineSubsystemOculus/OnlineSubsystemOculus.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemSteam, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Online/OnlineSubsystemSteam/OnlineSubsystemSteam.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemUtils, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Online/OnlineSubsystemUtils/OnlineSubsystemUtils.uplugin
+LogPluginManager: Loaded Plugin IOSTapJoy, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/Advertising/IOSTapJoy/IOSTapJoy.uplugin
+LogPluginManager: Loaded Plugin AnalyticsBlueprintLibrary, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/Analytics/AnalyticsBlueprintLibrary/AnalyticsBlueprintLibrary.uplugin
+LogPluginManager: Loaded Plugin AnalyticsMulticast, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/Analytics/AnalyticsMulticast/AnalyticsMulticast.uplugin
+LogPluginManager: Loaded Plugin Apsalar, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/Analytics/Apsalar/Apsalar.uplugin
+LogPluginManager: Loaded Plugin FileLogging, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/Analytics/FileLogging/FileLogging.uplugin
+LogPluginManager: Loaded Plugin Flurry, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/Analytics/Flurry/Flurry.uplugin
+LogPluginManager: Loaded Plugin AndroidDeviceProfileSelector, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/AndroidDeviceProfileSelector/AndroidDeviceProfileSelector.uplugin
+LogPluginManager: Loaded Plugin AndroidMoviePlayer, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/AndroidMoviePlayer/AndroidMoviePlayer.uplugin
+LogPluginManager: Loaded Plugin AppleMoviePlayer, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/AppleMoviePlayer/AppleMoviePlayer.uplugin
+LogPluginManager: Loaded Plugin ArchVisCharacter, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/ArchVisCharacter/ArchVisCharacter.uplugin
+LogPluginManager: Loaded Plugin CableComponent, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/CableComponent/CableComponent.uplugin
+LogPluginManager: Loaded Plugin CustomMeshComponent, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/CustomMeshComponent/CustomMeshComponent.uplugin
+LogPluginManager: Loaded Plugin ExampleDeviceProfileSelector, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/ExampleDeviceProfileSelector/ExampleDeviceProfileSelector.uplugin
+LogPluginManager: Loaded Plugin GearVR, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/GearVR/GearVR.uplugin
+LogPluginManager: Loaded Plugin GoogleVRController, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/GoogleVR/GoogleVRController/GoogleVRController.uplugin
+LogPluginManager: Loaded Plugin GoogleVRHMD, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/GoogleVR/GoogleVRHMD/GoogleVRHMD.uplugin
+LogPluginManager: Loaded Plugin IOSDeviceProfileSelector, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/IOSDeviceProfileSelector/IOSDeviceProfileSelector.uplugin
+LogPluginManager: Loaded Plugin LeapMotion, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/LeapMotion/LeapMotion.uplugin
+LogPluginManager: Loaded Plugin LinuxDeviceProfileSelector, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/LinuxDeviceProfileSelector/LinuxDeviceProfileSelector.uplugin
+LogPluginManager: Loaded Plugin MIDIDevice, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/MIDIDevice/MIDIDevice.uplugin
+LogPluginManager: Loaded Plugin MobilePatchingUtils, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/MobilePatchingUtils/MobilePatchingUtils.uplugin
+LogPluginManager: Loaded Plugin Ansel, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/Nvidia/Ansel/Ansel.uplugin
+LogPluginManager: Loaded Plugin OculusAudio, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/OculusAudio/OculusAudio.uplugin
+LogPluginManager: Loaded Plugin OculusInput, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/OculusInput/OculusInput.uplugin
+LogPluginManager: Loaded Plugin OculusLibrary, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/OculusLibrary/OculusLibrary.uplugin
+LogPluginManager: Loaded Plugin OculusRift, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/OculusRift/OculusRift.uplugin
+LogPluginManager: Loaded Plugin Oodle, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/PacketHandlers/CompressionComponents/Oodle/Oodle.uplugin
+LogPluginManager: Loaded Plugin ProceduralMeshComponent, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/ProceduralMeshComponent/ProceduralMeshComponent.uplugin
+LogPluginManager: Loaded Plugin SoundMod, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/SoundMod/SoundMod.uplugin
+LogPluginManager: Loaded Plugin SoundVisualizations, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/SoundVisualizations/SoundVisualizations.uplugin
+LogPluginManager: Loaded Plugin SteamController, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/Steam/SteamController/SteamController.uplugin
+LogPluginManager: Loaded Plugin SteamVR, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/Steam/SteamVR/SteamVR.uplugin
+LogPluginManager: Loaded Plugin WebBrowserWidget, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/WebBrowserWidget/WebBrowserWidget.uplugin
+LogPluginManager: Loaded Plugin WindowsDeviceProfileSelector, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/WindowsDeviceProfileSelector/WindowsDeviceProfileSelector.uplugin
+LogPluginManager: Loaded Plugin WindowsMoviePlayer, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/WindowsMoviePlayer/WindowsMoviePlayer.uplugin
+LogPluginManager: Loaded Plugin ScriptPlugin, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/ScriptPlugin/ScriptPlugin.uplugin
+LogPluginManager: Loaded Plugin SlateRemote, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Slate/SlateRemote/SlateRemote.uplugin
+LogPluginManager: Loaded Plugin EditorTests, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Tests/EditorTests/EditorTests.uplugin
+LogPluginManager: Loaded Plugin FbxAutomationTestBuilder, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Tests/FbxAutomationTestBuilder/FbxAutomationTestBuilder.uplugin
+LogPluginManager: Loaded Plugin FunctionalTestingEditor, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Tests/FunctionalTestingEditor/FunctionalTestingEditor.uplugin
+LogPluginManager: Loaded Plugin RuntimeTests, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Tests/RuntimeTests/RuntimeTests.uplugin
+LogPluginManager: Loaded Plugin ScreenshotTools, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Tests/ScreenshotTools/ScreenshotTools.uplugin
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.14-CL-3195953
+LogInit: Engine Version: 4.14.0-3195953+++UE4+Release-4.14
+LogInit: Compatible Engine Version: 4.14.0-3195953+++UE4+Release-4.14
+LogInit: Net CL: 3195953
+LogDevObjectVersion: Number of dev versions registered: 13
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 7
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 1
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 8
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 17
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 12
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 1
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogInit: Compiled (64-bit): Nov 12 2016 02:14:10
+LogInit: Compiled with Visual C++: 19.00.23026.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.14
+LogInit: Command line:  
+LogInit: Base directory: C:/Program Files (x86)/Epic Games/4.14/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2016.12.01-19.01.11:982][  0]LogInit: Selected Device Profile: [Windows]
+[2016.12.01-19.01.11:982][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2016.12.01-19.01.11:996][  0]LogInit: Computer: DESKTOP-TCO7O6N
+[2016.12.01-19.01.11:996][  0]LogInit: User: user
+[2016.12.01-19.01.11:996][  0]LogInit: CPU Page size=65536, Cores=4
+[2016.12.01-19.01.11:996][  0]LogInit: High frequency timer resolution =3.001592 MHz
+[2016.12.01-19.01.11:996][  0]LogMemory: Memory total: Physical=8.0GB (8GB approx)
+[2016.12.01-19.01.11:996][  0]LogMemory: Platform Memory Stats for Windows
+[2016.12.01-19.01.11:996][  0]LogMemory: Process Physical Memory: 264.49 MB used, 264.49 MB peak
+[2016.12.01-19.01.11:996][  0]LogMemory: Process Virtual Memory: 262.76 MB used, 262.76 MB peak
+[2016.12.01-19.01.11:996][  0]LogMemory: Physical Memory: 2452.13 MB used,  5730.98 MB free, 8183.11 MB total
+[2016.12.01-19.01.11:996][  0]LogMemory: Virtual Memory: 676.50 MB used,  5730.98 MB free, 134217728.00 MB total
+[2016.12.01-19.01.12:345][  0]LogTextLocalizationManager: No specific translations for ('es-ES') exist, so ('es') translations will be used.
+[2016.12.01-19.01.13:245][  0]LogD3D11RHI: D3D11 adapters:
+[2016.12.01-19.01.13:950][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 650' (Feature Level 11_0)
+[2016.12.01-19.01.13:950][  0]LogD3D11RHI:       2017/0/4091 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2016.12.01-19.01.13:952][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2016.12.01-19.01.13:952][  0]LogD3D11RHI:       0/0/4091 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2016.12.01-19.01.13:952][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2016.12.01-19.01.13:955][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2016.12.01-19.01.13:955][  0]LogD3D11RHI:     GPU DeviceId: 0xfc6 (for the marketing name, search the web for "GPU Device Id")
+[2016.12.01-19.01.13:955][  0]LogWindows: EnumDisplayDevices:
+[2016.12.01-19.01.13:956][  0]LogWindows:    0. 'NVIDIA GeForce GTX 650' (P:1 D:1)
+[2016.12.01-19.01.13:956][  0]LogWindows:    1. 'NVIDIA GeForce GTX 650' (P:0 D:0)
+[2016.12.01-19.01.13:956][  0]LogWindows:    2. 'NVIDIA GeForce GTX 650' (P:0 D:0)
+[2016.12.01-19.01.13:956][  0]LogWindows: DebugString: FoundDriverCount:3 
+[2016.12.01-19.01.13:956][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 650
+[2016.12.01-19.01.13:956][  0]LogD3D11RHI:   Driver Version: 375.95 (internal:21.21.13.7595, unified:375.95)
+[2016.12.01-19.01.13:956][  0]LogD3D11RHI:      Driver Date: 11-16-2016
+[2016.12.01-19.01.13:956][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2016.12.01-19.01.14:627][  0]LogD3D11RHI: Async texture creation enabled
+[2016.12.01-19.01.14:676][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2016.12.01-19.01.14:676][  0]LogShaderCompilers: Guid format shader working directory is -30 characters bigger than the processId version (../../../../../../Users/user/Documents/Unreal Projects/udemy/BuildingEscape/Intermediate/Shaders/WorkingDirectory/7916/).
+[2016.12.01-19.01.14:676][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/user/AppData/Local/Temp/UnrealShaderWorkingDir/75731DDC46F4E6A1A1F3ADA9A9A0CDB4/'.
+[2016.12.01-19.01.14:676][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2016.12.01-19.01.16:914][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2016.12.01-19.01.17:054][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
+[2016.12.01-19.01.17:197][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
+[2016.12.01-19.01.17:326][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
+[2016.12.01-19.01.17:580][  0]LogTemp:Display: Loaded TP MacTargetPlatform
+[2016.12.01-19.01.17:727][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2016.12.01-19.01.17:869][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2016.12.01-19.01.18:012][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2016.12.01-19.01.18:217][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2016.12.01-19.01.18:462][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2016.12.01-19.01.18:621][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2016.12.01-19.01.18:750][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2016.12.01-19.01.18:878][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2016.12.01-19.01.19:013][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2016.12.01-19.01.19:264][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2016.12.01-19.01.19:522][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2016.12.01-19.01.19:522][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2016.12.01-19.01.19:627][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2016.12.01-19.01.20:158][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2016.12.01-19.01.20:238][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2016.12.01-19.01.20:365][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2016.12.01-19.01.20:520][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2016.12.01-19.01.20:679][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2016.12.01-19.01.20:829][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2016.12.01-19.01.20:829][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2016.12.01-19.01.22:176][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2016.12.01-19.01.22:592][  0]LogDerivedDataCache: Loaded boot cache 0.42s 50MB C:/Users/user/AppData/Local/UnrealEngine/4.14/DerivedDataCache/Boot.ddc.
+[2016.12.01-19.01.22:592][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/user/AppData/Local/UnrealEngine/4.14/DerivedDataCache/Boot.ddc
+[2016.12.01-19.01.22:592][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/user/Documents/Unreal Projects/udemy/BuildingEscape/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2016.12.01-19.01.22:592][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2016.12.01-19.01.22:593][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/user/Documents/Unreal Projects/udemy/BuildingEscape/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2016.12.01-19.01.22:593][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2016.12.01-19.01.22:629][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2016.12.01-19.01.22:642][  0]LogDerivedDataCache: Using Local data cache path C:/Users/user/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2016.12.01-19.01.23:289][  0]LogInit: Selected Device Profile: [Windows]
+[2016.12.01-19.01.23:297][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2016.12.01-19.01.23:750][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
+[2016.12.01-19.01.23:879][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2016.12.01-19.01.24:015][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
+[2016.12.01-19.01.24:015][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
+[2016.12.01-19.01.24:015][  0]LogMeshUtilities: No automatic mesh merging module available
+[2016.12.01-19.01.25:053][  0]LogNetVersion: GetLocalNetworkVersion: CL: 3195953, ProjectName: buildingescape, ProjectVersion: , EngineNetworkVersion: 2, GameNetworkVersion: 0, NetworkChecksum: 2542623411
+[2016.12.01-19.01.25:168][  0]LogAssetRegistry: FAssetRegistry took 0.0217 seconds to start up
+[2016.12.01-19.01.25:257][  0]LogPackageLocalizationCache: Processed 3 localized package path(s) for 2 prioritized culture(s) in 0.035296 seconds
+[2016.12.01-19.01.25:265][  0]LogUObjectArray: 31946 objects as part of root set at end of initial load.
+[2016.12.01-19.01.25:265][  0]LogUObjectAllocator: 6935840 out of 0 bytes used by permanent object pool.
+[2016.12.01-19.01.25:265][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2016.12.01-19.01.25:443][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2016.12.01-19.01.28:625][  0]LogSlate: Using Freetype 2.6.0
+[2016.12.01-19.01.28:627][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2016.12.01-19.01.28:627][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2016.12.01-19.01.31:267][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2016.12.01-19.01.31:371][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2016.12.01-19.01.32:426][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2016.12.01-19.01.33:634][  0]SourceControl: Información El control de código fuente está desactivado
+[2016.12.01-19.01.34:257][  0]SourceControl: Información El control de código fuente está desactivado
+[2016.12.01-19.01.34:461][  0]SourceControl: Información El control de código fuente está desactivado
+[2016.12.01-19.01.34:620][  0]SourceControl: Información El control de código fuente está desactivado
+[2016.12.01-19.01.39:232][  0]LogEngine: Initializing Engine...
+[2016.12.01-19.01.39:232][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2016.12.01-19.01.39:797][  0]LogAIModule: Creating AISystem for world Untitled
+[2016.12.01-19.01.39:828][  0]LogInit: XAudio2 using 'Philips 244E-4 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2016.12.01-19.01.39:840][  0]LogInit: FAudioDevice initialized.
+[2016.12.01-19.01.39:893][  0]LogDerivedDataCache: Saved boot cache 0.05s 50MB C:/Users/user/AppData/Local/UnrealEngine/4.14/DerivedDataCache/Boot.ddc.
+[2016.12.01-19.01.39:916][  0]LogInit: Texture streaming: Enabled
+[2016.12.01-19.01.40:511][  0]LogInit: Transaction tracking system initialized
+[2016.12.01-19.01.41:559][  0]BlueprintLog: New page: Cargar el editor
+[2016.12.01-19.01.45:319][  0]LocalizationService: Información Localization service is disabled
+[2016.12.01-19.01.47:641][  0]LogConsoleResponse:Display: 
+[2016.12.01-19.01.47:982][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2016.12.01-19.01.47:982][  0]LogCook:Display: Mobile HDR setting 1
+[2016.12.01-19.01.48:375][  0]LogFileCache: Scanning file cache for directory 'C:/Users/user/Documents/Unreal Projects/udemy/BuildingEscape/Content/' took 0.02s
+[2016.12.01-19.01.51:142][  0]SourceControl: Información El control de código fuente está desactivado
+[2016.12.01-19.01.51:142][  0]Cmd: MAP LOAD FILE="../../../../../../Users/user/Documents/Unreal Projects/udemy/BuildingEscape/Content/NewMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2016.12.01-19.01.51:145][  0]LightingResults: New page: Diseñar la iluminación
+[2016.12.01-19.01.51:252][  0]MapCheck: New page: Revisión del mapa
+[2016.12.01-19.01.51:252][  0]LightingResults: New page: Diseñar la iluminación
+[2016.12.01-19.01.51:783][  0]LogAIModule: Creating AISystem for world NewMap
+[2016.12.01-19.01.51:796][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2016.12.01-19.01.51:797][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2016.12.01-19.01.51:926][  0]MapCheck: Información Map check complete: 0 Error(s), 0 Warning(s), took 128,672ms to complete.
+[2016.12.01-19.01.51:926][  0]LogFileHelpers: Loading map 'NewMap' took 0.783
+[2016.12.01-19.01.51:985][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2016.12.01-19.01.52:089][  0]LogCollectionManager: Loaded 0 collections in 0.002533 seconds
+[2016.12.01-19.01.52:234][  0]LogFileCache: Scanning file cache for directory 'C:/Users/user/Documents/Unreal Projects/udemy/BuildingEscape/Saved/Collections/' took 0.01s
+[2016.12.01-19.01.52:234][  0]LogFileCache: Scanning file cache for directory 'C:/Users/user/Documents/Unreal Projects/udemy/BuildingEscape/Content/Developers/user/Collections/' took 0.01s
+[2016.12.01-19.01.52:234][  0]LogFileCache: Scanning file cache for directory 'C:/Users/user/Documents/Unreal Projects/udemy/BuildingEscape/Content/Collections/' took 0.01s
+[2016.12.01-19.01.52:234][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000004 seconds
+[2016.12.01-19.01.52:248][  0]LogContentBrowser: Native class hierarchy populated in 0.0138 seconds. Added 2193 classes and 430 folders.
+[2016.12.01-19.01.52:357][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2016.12.01-19.01.52:357][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2016.12.01-19.01.52:360][  0]LogContentBrowser: Native class hierarchy updated for 'GameplayTags' in 0.0024 seconds. Added 13 classes and 0 folders.
+[2016.12.01-19.01.52:540][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0023 seconds. Added 0 classes and 0 folders.
+[2016.12.01-19.01.52:761][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0024 seconds. Added 0 classes and 0 folders.
+[2016.12.01-19.01.52:933][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0024 seconds. Added 1 classes and 2 folders.
+[2016.12.01-19.01.53:065][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2016.12.01-19.01.53:074][  0]LogUObjectGlobals:Warning: Error al encontrar el objeto 'Class Ninguno.'
+[2016.12.01-19.01.53:230][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0025 seconds. Added 1 classes and 2 folders.
+[2016.12.01-19.01.53:230][  0]LogLoad: (Engine Initialization) Total time: 44.72 seconds
+[2016.12.01-19.01.53:231][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.17 seconds
+[2016.12.01-19.01.53:231][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2016.12.01-19.01.53:231][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2016.12.01-19.01.53:240][  0]LogOcInput: OculusInput pre-init called
+[2016.12.01-19.01.53:260][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2016.12.01-19.01.53:545][  0]LogRenderer: Reallocating scene render targets to support 1484x664 NumSamples 1 (Frame:2).
+[2016.12.01-19.01.53:801][  1]LogAssetRegistry: Asset discovery search completed in 28.6544 seconds
+[2016.12.01-19.01.53:802][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2016.12.01-19.01.53:802][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000163 seconds (updated 0 objects)
+[2016.12.01-19.08.43:389][651]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Door2)
+[2016.12.01-19.11.26:508][284]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (SM_Door2)
+[2016.12.01-19.11.29:162][505]LogRenderer: Reallocating scene render targets to support 1484x924 NumSamples 1 (Frame:13554).
+[2016.12.01-19.13.56:438][972]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/NewMap' took 0.015
+[2016.12.01-19.13.56:444][972]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/StarterContent/Props/SM_Door] ([1] browsable assets)...
+[2016.12.01-19.13.56:469][972]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/StarterContent/Props/SM_Door.SM_Door]
+[2016.12.01-19.13.56:469][972]OBJ SavePackage: Finished generating thumbnails for package [/Game/StarterContent/Props/SM_Door]
+[2016.12.01-19.13.56:497][972]LogSavePackage: Save=13.88ms
+[2016.12.01-19.13.56:497][972]LogSavePackage: Moving '../../../../../../Users/user/Documents/Unreal Projects/udemy/BuildingEscape/Saved/SM_Door_Auto1F57BBEF14D78476077BCB580727364ED.tmp' to '../../../../../../Users/user/Documents/Unreal Projects/udemy/BuildingEscape/Saved/Autosaves/Game/StarterContent/Props/SM_Door_Auto1.uasset'
+[2016.12.01-19.13.56:499][972]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/user/Documents/Unreal Projects/udemy/BuildingEscape/Saved/Autosaves/Game/StarterContent/Props/SM_Door_Auto1.uasset
+[2016.12.01-19.13.56:499][972]LogFileHelpers: Auto-saving content packages took 0.060
+[2016.12.01-19.15.59:750][236]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/StarterContent/Props/SM_Door" FILE="../../../../../../Users/user/Documents/Unreal Projects/udemy/BuildingEscape/Content/StarterContent/Props/SM_Door.uasset" SILENT=true
+[2016.12.01-19.15.59:763][236]LogSavePackage: Save=3.78ms
+[2016.12.01-19.15.59:763][236]LogSavePackage: Moving '../../../../../../Users/user/Documents/Unreal Projects/udemy/BuildingEscape/Saved/SM_Door2B317ECA455BECD4CF4ADBA4F2CC7540.tmp' to '../../../../../../Users/user/Documents/Unreal Projects/udemy/BuildingEscape/Content/StarterContent/Props/SM_Door.uasset'
+[2016.12.01-19.15.59:767][236]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/user/Documents/Unreal Projects/udemy/BuildingEscape/Content/StarterContent/Props/SM_Door.uasset
+[2016.12.01-19.16.23:253][390]LogTemp: Repeting last play command: Selected Viewport
+[2016.12.01-19.16.23:268][390]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.12.01-19.16.23:268][390]PIE: New page: Sesión PIE (reproducción en el editor): NewMap (1/12/2016 21:16:23)
+[2016.12.01-19.16.23:268][390]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_NewMap
+[2016.12.01-19.16.23:273][390]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004894s)
+[2016.12.01-19.16.23:275][390]LogAIModule: Creating AISystem for world NewMap
+[2016.12.01-19.16.23:275][390]LogPlayLevel: PIE: World Init took: (0.001282s)
+[2016.12.01-19.16.23:275][390]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/NewMap.NewMap to /Game/UEDPIE_0_NewMap.NewMap (0.006829s)
+[2016.12.01-19.16.23:311][390]LogInit: XAudio2 using 'Philips 244E-4 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2016.12.01-19.16.23:318][390]LogInit: FAudioDevice initialized.
+[2016.12.01-19.16.23:371][390]LogLoad: Game class is 'BuildingEscapeGameModeBase'
+[2016.12.01-19.16.23:375][390]LogWorld: Bringing World /Game/UEDPIE_0_NewMap.NewMap up for play (max tick rate 0) at 2016.12.01-20.16.23
+[2016.12.01-19.16.23:375][390]LogWorld: Bringing up level for play took: 0.002319
+[2016.12.01-19.16.23:481][390]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0025 seconds. Added 11 classes and 0 folders.
+[2016.12.01-19.16.23:482][390]LogTemp:Warning: SM_Chair_2 is at X=-425.000 Y=-392.000 Z=20.000
+[2016.12.01-19.16.23:483][390]PIE: Información Tiempo de inicio de la reproducción en el editor para  /Game/UEDPIE_0_NewMap 0,726
+[2016.12.01-19.22.25:157][550]LogActorFactory: Actor Factory created SM_GlassWindow
+[2016.12.01-19.22.25:926][587]LogActorFactory: Actor Factory created SM_GlassWindow
+[2016.12.01-19.23.38:485][354]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/NewMap" FILE="../../../../../../Users/user/Documents/Unreal Projects/udemy/BuildingEscape/Content/NewMap.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2016.12.01-19.23.38:543][354]LogSavePackage: Save=31.96ms
+[2016.12.01-19.23.38:543][354]LogSavePackage: Moving '../../../../../../Users/user/Documents/Unreal Projects/udemy/BuildingEscape/Saved/NewMap8235CCEE481CB163936D779BE651D733.tmp' to '../../../../../../Users/user/Documents/Unreal Projects/udemy/BuildingEscape/Content/NewMap.umap'
+[2016.12.01-19.23.38:547][354]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/user/Documents/Unreal Projects/udemy/BuildingEscape/Content/NewMap.umap
+[2016.12.01-19.23.38:624][354]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/NewMap_BuiltData" FILE="../../../../../../Users/user/Documents/Unreal Projects/udemy/BuildingEscape/Content/NewMap_BuiltData.uasset" SILENT=true
+[2016.12.01-19.23.38:784][354]LogSavePackage: Save=136.29ms
+[2016.12.01-19.23.38:785][354]LogSavePackage: Moving '../../../../../../Users/user/Documents/Unreal Projects/udemy/BuildingEscape/Saved/NewMap_BuiltData2A7489DD45D7DAA0A6ACF18BD1FB7D8F.tmp' to '../../../../../../Users/user/Documents/Unreal Projects/udemy/BuildingEscape/Content/NewMap_BuiltData.uasset'
+[2016.12.01-19.23.38:787][354]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/user/Documents/Unreal Projects/udemy/BuildingEscape/Content/NewMap_BuiltData.uasset
+[2016.12.01-19.23.40:986][567]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_400x302)
+[2016.12.01-19.23.46:228][892]LogTemp: Repeting last play command: Selected Viewport
+[2016.12.01-19.23.46:242][892]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.12.01-19.23.46:242][892]PIE: New page: Sesión PIE (reproducción en el editor): NewMap (1/12/2016 21:23:46)
+[2016.12.01-19.23.46:243][892]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_NewMap
+[2016.12.01-19.23.46:248][892]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005101s)
+[2016.12.01-19.23.46:249][892]LogAIModule: Creating AISystem for world NewMap
+[2016.12.01-19.23.46:249][892]LogPlayLevel: PIE: World Init took: (0.001130s)
+[2016.12.01-19.23.46:249][892]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/NewMap.NewMap to /Game/UEDPIE_0_NewMap.NewMap (0.006810s)
+[2016.12.01-19.23.46:279][892]LogInit: XAudio2 using 'Philips 244E-4 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2016.12.01-19.23.46:286][892]LogInit: FAudioDevice initialized.
+[2016.12.01-19.23.46:318][892]LogLoad: Game class is 'BuildingEscapeGameModeBase'
+[2016.12.01-19.23.46:321][892]LogWorld: Bringing World /Game/UEDPIE_0_NewMap.NewMap up for play (max tick rate 0) at 2016.12.01-20.23.46
+[2016.12.01-19.23.46:321][892]LogWorld: Bringing up level for play took: 0.002176
+[2016.12.01-19.23.46:323][892]LogTemp:Warning: SM_Chair_2 is at X=-425.000 Y=-392.000 Z=20.000
+[2016.12.01-19.23.46:323][892]PIE: Información Tiempo de inicio de la reproducción en el editor para  /Game/UEDPIE_0_NewMap -0,433
+[2016.12.01-19.30.39:252][ 66]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2016.12.01-19.30.40:255][160]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_400x302)
+[2016.12.01-19.30.43:502][476]LogEditorViewport: Clicking on Actor (LMB): TriggerVolume (TriggerVolume)
+[2016.12.01-19.35.07:575][712]LogSavePackage: Save=33.30ms
+[2016.12.01-19.35.07:576][712]LogSavePackage: Moving '../../../../../../Users/user/Documents/Unreal Projects/udemy/BuildingEscape/Saved/NewMap_Auto21AE0CF2C41E92A1A3837F6BEDD2F350F.tmp' to '../../../../../../Users/user/Documents/Unreal Projects/udemy/BuildingEscape/Saved/Autosaves/Game/NewMap_Auto2.umap'
+[2016.12.01-19.35.07:578][712]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/user/Documents/Unreal Projects/udemy/BuildingEscape/Saved/Autosaves/Game/NewMap_Auto2.umap
+[2016.12.01-19.35.07:580][712]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/NewMap' took 0.064
+[2016.12.01-19.35.07:580][712]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.064
+[2016.12.01-19.35.40:299][712]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Door2)
+[2016.12.01-19.35.52:357][712]LogVSAccessor:Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2016.12.01-19.35.52:379][713]LogVSAccessor:Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2016.12.01-19.45.08:292][371]LogSavePackage: Save=44.54ms
+[2016.12.01-19.45.08:292][371]LogSavePackage: Moving '../../../../../../Users/user/Documents/Unreal Projects/udemy/BuildingEscape/Saved/NewMap_Auto31D9FF4454E1103E26EC3268135CF9B4B.tmp' to '../../../../../../Users/user/Documents/Unreal Projects/udemy/BuildingEscape/Saved/Autosaves/Game/NewMap_Auto3.umap'
+[2016.12.01-19.45.08:296][371]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/user/Documents/Unreal Projects/udemy/BuildingEscape/Saved/Autosaves/Game/NewMap_Auto3.umap
+[2016.12.01-19.45.08:298][371]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/NewMap' took 0.090
+[2016.12.01-19.45.08:299][371]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.090
+[2016.12.01-19.52.38:173][966]MapCheck: New page: Revisión del mapa
+[2016.12.01-19.52.38:193][966]LightingResults: New page: Diseño de la iluminación - 1/12/2016 21:52:38
+[2016.12.01-19.52.38:279][966]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
+[2016.12.01-19.52.38:626][966]LogSwarmInterface: [OpenConnection] Connecting to agent ...
+[2016.12.01-19.52.38:716][966]LogSwarmInterface: [TryOpenConnection] Testing the Agent
+[2016.12.01-19.52.39:238][966]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
+[2016.12.01-19.52.39:238][966]LogSwarmInterface: [TryOpenConnection] Local Process ID is 7916
+[2016.12.01-19.52.42:297][966]LogStaticLightingSystem:Warning: No importance volume found, so the scene bounding box was used.  You can optimize your scene's quality and lighting build times by adding importance volumes.
+[2016.12.01-19.52.42:298][966]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2016.12.01-19.52.42:298][966]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2016.12.01-19.52.42:298][966]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2016.12.01-19.52.42:299][966]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2016.12.01-19.52.42:299][966]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2016.12.01-19.52.42:508][966]LogEditorBuildUtils: Build time 0:04
+[2016.12.01-19.52.46:566][106]Job is a success!
+[2016.12.01-19.52.47:184][107]LogTexture:Display: Generando texturas: HQ_Lightmap1_1 (AutoDXT)
+[2016.12.01-19.52.47:184][107]LogTexture:Display: Generando texturas: HQ_Lightmap1_2 (AutoDXT)
+[2016.12.01-19.52.47:184][107]LogTexture:Display: Generando texturas: LQ_Lightmap_1_2 (DXT1)
+[2016.12.01-19.52.47:184][107]LogTexture:Display: Generando texturas: LQ_Lightmap_1_1 (DXT1)
+[2016.12.01-19.52.47:490][107]LogTexture:Display: Generando texturas: ShadowMapTexture2D_0 (BGRA8)
+[2016.12.01-19.52.47:490][107]LogTexture:Display: Generando texturas: ShadowMapTexture2D_1 (G8)
+[2016.12.01-19.52.47:518][107]Lightmass on DESKTOP-TCO7O6N: 3.59 sec total, 110 ms importing, 22 ms setup, 489 ms photons, 2.94 sec processing, 0 ms extra exporting [18/18 mappings]. Threads: 20.3 sec total, 10.5 sec processing.
+[2016.12.01-19.52.47:557][107]LogStaticLightingSystem: Illumination: 9.31 sec (446 ms encoding lightmaps, 301 ms encoding shadowmaps)
+[2016.12.01-19.52.47:557][107]LogStaticLightingSystem: Lightmap texture memory:  2.0 MB (2.0 MB streaming, 0.0 MB non-streaming), 4 textures
+[2016.12.01-19.52.47:557][107]LogStaticLightingSystem: Shadowmap texture memory: 2.7 MB (2.7 MB streaming, 0.0 MB non-streaming), 2 textures
+[2016.12.01-19.52.48:300][107]DumpUnbuiltLightIteractions
+[2016.12.01-19.52.48:301][107]Lights with unbuilt interactions: 0
+[2016.12.01-19.52.48:301][107]
+[2016.12.01-19.52.48:301][107]Primitives with unbuilt interactions: 0
+[2016.12.01-19.52.48:306][108]Cmd: MAP CHECK NOTIFYRESULTS
+[2016.12.01-19.52.48:307][108]MapCheck: New page: NewMap - 1/12/2016 21:52:48
+[2016.12.01-19.52.48:483][108]MapCheck: Información Map check complete: 0 Error(s), 0 Warning(s), took 176,216ms to complete.
+[2016.12.01-19.52.52:841][322]Recompiling BuildingEscape...
+[2016.12.01-19.52.52:841][322]Launching UnrealBuildTool... [C:/Program Files (x86)/Epic Games/4.14/Engine/Binaries/DotNET/UnrealBuildTool.exe BuildingEscape -ModuleWithSuffix BuildingEscape 9461 Win64 Development -editorrecompile -canskiplink "C:/Users/user/Documents/Unreal Projects/udemy/BuildingEscape/BuildingEscape.uproject" ]
+[2016.12.01-19.52.52:884][322]Warning: Starting HotReload took  0.1s.
+[2016.12.01-19.53.10:130][165]CompilerResultsLog: New page: Compilación - 1/12/2016 21:53:10
+[2016.12.01-19.53.10:131][165]CompilerResultsLog: Información Compiling game modules for hot reload
+[2016.12.01-19.53.10:132][165]CompilerResultsLog: Información Parsing headers for BuildingEscapeEditor
+[2016.12.01-19.53.10:132][165]CompilerResultsLog: Información   Running UnrealHeaderTool "C:\Users\user\Documents\Unreal Projects\udemy\BuildingEscape\BuildingEscape.uproject" "C:\Users\user\Documents\Unreal Projects\udemy\BuildingEscape\Intermediate\Build\Win64\BuildingEscapeEditor\Development\BuildingEscapeEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2016.12.01-19.53.10:133][165]CompilerResultsLog: Información Reflection code generated for BuildingEscapeEditor in 5,2217386 seconds
+[2016.12.01-19.53.10:133][165]CompilerResultsLog: Información Performing 3 actions (4 in parallel)
+[2016.12.01-19.53.10:133][165]CompilerResultsLog: Información BuildingEscape.generated.cpp
+[2016.12.01-19.53.10:133][165]CompilerResultsLog: Información OpenDoor.cpp
+[2016.12.01-19.53.10:133][165]CompilerResultsLog: Información [3/3] Link UE4Editor-BuildingEscape-9461.dll
+[2016.12.01-19.53.10:133][165]CompilerResultsLog: Información    Creating library C:\Users\user\Documents\Unreal Projects\udemy\BuildingEscape\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-BuildingEscape-9461.lib and object C:\Users\user\Documents\Unreal Projects\udemy\BuildingEscape\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-BuildingEscape-9461.exp
+[2016.12.01-19.53.10:134][165]CompilerResultsLog: Información Total build time: 17,04 seconds
+[2016.12.01-19.53.10:134][165]LogMainFrame: MainFrame: Module compiling took 17.297 seconds
+[2016.12.01-19.53.10:283][165]LogClass: Could not find existing class OpenDoor in package /Script/BuildingEscape for HotReload, assuming new class
+[2016.12.01-19.53.10:289][165]LogHotReload: Re-instancing OpenDoor after hot-reload.
+[2016.12.01-19.53.10:291][165]LogUObjectGlobals:Warning: Guid referenced by OpenDoor /Game/NewMap.NewMap:PersistentLevel.SM_Door2.OpenDoor is already used by HOTRELOADED_OpenDoor_0 /Game/NewMap.NewMap:PersistentLevel.SM_Door2.HOTRELOADED_OpenDoor_1, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2016.12.01-19.53.10:295][165]LogUObjectGlobals:Warning: Guid referenced by OpenDoor /Game/NewMap.NewMap:PersistentLevel.SM_Door_9.OpenDoor is already used by HOTRELOADED_OpenDoor_0 /Game/NewMap.NewMap:PersistentLevel.SM_Door_9.HOTRELOADED_OpenDoor_2, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2016.12.01-19.53.10:390][165]LogContentBrowser: Native class hierarchy updated for 'BuildingEscape' in 0.0028 seconds. Added 3 classes and 2 folders.
+[2016.12.01-19.53.10:394][165]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2016.12.01-19.53.10:481][165]LogContentBrowser: Native class hierarchy populated in 0.0185 seconds. Added 2195 classes and 434 folders.
+[2016.12.01-19.53.10:485][165]Display: HotReload took 17.7s.
+[2016.12.01-19.53.14:596][368]LogTemp: Repeting last play command: Selected Viewport
+[2016.12.01-19.53.14:611][368]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.12.01-19.53.14:611][368]PIE: New page: Sesión PIE (reproducción en el editor): NewMap (1/12/2016 21:53:14)
+[2016.12.01-19.53.14:611][368]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_NewMap
+[2016.12.01-19.53.14:618][368]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007067s)
+[2016.12.01-19.53.14:620][368]LogAIModule: Creating AISystem for world NewMap
+[2016.12.01-19.53.14:621][368]LogPlayLevel: PIE: World Init took: (0.002022s)
+[2016.12.01-19.53.14:621][368]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/NewMap.NewMap to /Game/UEDPIE_0_NewMap.NewMap (0.009860s)
+[2016.12.01-19.53.14:653][368]LogInit: XAudio2 using 'Philips 244E-4 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2016.12.01-19.53.14:668][368]LogInit: FAudioDevice initialized.
+[2016.12.01-19.53.14:702][368]LogLoad: Game class is 'BuildingEscapeGameModeBase'
+[2016.12.01-19.53.14:705][368]LogWorld: Bringing World /Game/UEDPIE_0_NewMap.NewMap up for play (max tick rate 0) at 2016.12.01-20.53.14
+[2016.12.01-19.53.14:707][368]LogWorld: Bringing up level for play took: 0.003591
+[2016.12.01-19.53.14:709][368]LogTemp:Warning: SM_Chair_2 is at X=-425.000 Y=-392.000 Z=20.000
+[2016.12.01-19.53.14:709][368]PIE: Información Tiempo de inicio de la reproducción en el editor para  /Game/UEDPIE_0_NewMap -0,048
+[2016.12.01-19.54.17:505][558]LogTemp: Repeting last play command: Selected Viewport
+[2016.12.01-19.54.17:520][558]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.12.01-19.54.17:520][558]PIE: New page: Sesión PIE (reproducción en el editor): NewMap (1/12/2016 21:54:17)
+[2016.12.01-19.54.17:520][558]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_NewMap
+[2016.12.01-19.54.17:528][558]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007464s)
+[2016.12.01-19.54.17:530][558]LogAIModule: Creating AISystem for world NewMap
+[2016.12.01-19.54.17:530][558]LogPlayLevel: PIE: World Init took: (0.001664s)
+[2016.12.01-19.54.17:530][558]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/NewMap.NewMap to /Game/UEDPIE_0_NewMap.NewMap (0.010025s)
+[2016.12.01-19.54.17:567][558]LogInit: XAudio2 using 'Philips 244E-4 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2016.12.01-19.54.17:574][558]LogInit: FAudioDevice initialized.
+[2016.12.01-19.54.17:614][558]LogLoad: Game class is 'BuildingEscapeGameModeBase'
+[2016.12.01-19.54.17:617][558]LogWorld: Bringing World /Game/UEDPIE_0_NewMap.NewMap up for play (max tick rate 0) at 2016.12.01-20.54.17
+[2016.12.01-19.54.17:617][558]LogWorld: Bringing up level for play took: 0.002231
+[2016.12.01-19.54.17:619][558]LogTemp:Warning: SM_Chair_2 is at X=-425.000 Y=-392.000 Z=20.000
+[2016.12.01-19.54.17:619][558]PIE: Información Tiempo de inicio de la reproducción en el editor para  /Game/UEDPIE_0_NewMap 0,862
+[2016.12.01-19.55.11:343][275]Recompiling BuildingEscape...
+[2016.12.01-19.55.11:344][275]Launching UnrealBuildTool... [C:/Program Files (x86)/Epic Games/4.14/Engine/Binaries/DotNET/UnrealBuildTool.exe BuildingEscape -ModuleWithSuffix BuildingEscape 1614 Win64 Development -editorrecompile -canskiplink "C:/Users/user/Documents/Unreal Projects/udemy/BuildingEscape/BuildingEscape.uproject" ]
+[2016.12.01-19.55.11:376][275]Warning: Starting HotReload took  0.0s.
+[2016.12.01-19.55.22:664][825]CompilerResultsLog: New page: Compilación - 1/12/2016 21:55:22
+[2016.12.01-19.55.22:664][825]CompilerResultsLog: Información Compiling game modules for hot reload
+[2016.12.01-19.55.22:664][825]CompilerResultsLog: Información Parsing headers for BuildingEscapeEditor
+[2016.12.01-19.55.22:665][825]CompilerResultsLog: Información   Running UnrealHeaderTool "C:\Users\user\Documents\Unreal Projects\udemy\BuildingEscape\BuildingEscape.uproject" "C:\Users\user\Documents\Unreal Projects\udemy\BuildingEscape\Intermediate\Build\Win64\BuildingEscapeEditor\Development\BuildingEscapeEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2016.12.01-19.55.22:665][825]CompilerResultsLog: Información Reflection code generated for BuildingEscapeEditor in 5,5543148 seconds
+[2016.12.01-19.55.22:665][825]CompilerResultsLog: Información Performing 3 actions (4 in parallel)
+[2016.12.01-19.55.22:665][825]CompilerResultsLog: Información BuildingEscape.generated.cpp
+[2016.12.01-19.55.22:666][825]CompilerResultsLog: Información OpenDoor.cpp
+[2016.12.01-19.55.22:666][825]CompilerResultsLog: Información [3/3] Link UE4Editor-BuildingEscape-1614.dll
+[2016.12.01-19.55.22:666][825]CompilerResultsLog: Información    Creating library C:\Users\user\Documents\Unreal Projects\udemy\BuildingEscape\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-BuildingEscape-1614.lib and object C:\Users\user\Documents\Unreal Projects\udemy\BuildingEscape\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-BuildingEscape-1614.exp
+[2016.12.01-19.55.22:666][825]CompilerResultsLog: Información Total build time: 11,09 seconds
+[2016.12.01-19.55.22:667][825]LogMainFrame: MainFrame: Module compiling took 11.326 seconds
+[2016.12.01-19.55.22:811][825]LogHotReload: Re-instancing OpenDoor after hot-reload.
+[2016.12.01-19.55.22:868][825]LogContentBrowser: Native class hierarchy updated for 'BuildingEscape' in 0.0035 seconds. Added 3 classes and 2 folders.
+[2016.12.01-19.55.22:871][825]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2016.12.01-19.55.22:920][825]LogContentBrowser: Native class hierarchy populated in 0.0174 seconds. Added 2195 classes and 434 folders.
+[2016.12.01-19.55.22:921][825]Display: HotReload took 11.6s.
+[2016.12.01-19.55.42:624][809]LogTemp: Repeting last play command: Selected Viewport
+[2016.12.01-19.55.42:638][809]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.12.01-19.55.42:639][809]PIE: New page: Sesión PIE (reproducción en el editor): NewMap (1/12/2016 21:55:42)
+[2016.12.01-19.55.42:639][809]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_NewMap
+[2016.12.01-19.55.42:645][809]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006275s)
+[2016.12.01-19.55.42:647][809]LogAIModule: Creating AISystem for world NewMap
+[2016.12.01-19.55.42:647][809]LogPlayLevel: PIE: World Init took: (0.001575s)
+[2016.12.01-19.55.42:647][809]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/NewMap.NewMap to /Game/UEDPIE_0_NewMap.NewMap (0.008489s)
+[2016.12.01-19.55.42:683][809]LogInit: XAudio2 using 'Philips 244E-4 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2016.12.01-19.55.42:692][809]LogInit: FAudioDevice initialized.
+[2016.12.01-19.55.42:730][809]LogLoad: Game class is 'BuildingEscapeGameModeBase'
+[2016.12.01-19.55.42:733][809]LogWorld: Bringing World /Game/UEDPIE_0_NewMap.NewMap up for play (max tick rate 0) at 2016.12.01-20.55.42
+[2016.12.01-19.55.42:734][809]LogWorld: Bringing up level for play took: 0.002329
+[2016.12.01-19.55.42:735][809]LogTemp:Warning: SM_Chair_2 is at X=-425.000 Y=-392.000 Z=20.000
+[2016.12.01-19.55.42:736][809]PIE: Información Tiempo de inicio de la reproducción en el editor para  /Game/UEDPIE_0_NewMap -0,021
+[2016.12.01-19.56.13:653][874]Recompiling BuildingEscape...
+[2016.12.01-19.56.13:653][874]Launching UnrealBuildTool... [C:/Program Files (x86)/Epic Games/4.14/Engine/Binaries/DotNET/UnrealBuildTool.exe BuildingEscape -ModuleWithSuffix BuildingEscape 2494 Win64 Development -editorrecompile -canskiplink "C:/Users/user/Documents/Unreal Projects/udemy/BuildingEscape/BuildingEscape.uproject" ]
+[2016.12.01-19.56.13:685][874]Warning: Starting HotReload took  0.1s.
+[2016.12.01-19.56.24:282][407]CompilerResultsLog: New page: Compilación - 1/12/2016 21:56:24
+[2016.12.01-19.56.24:282][407]CompilerResultsLog: Información Compiling game modules for hot reload
+[2016.12.01-19.56.24:282][407]CompilerResultsLog: Información Parsing headers for BuildingEscapeEditor
+[2016.12.01-19.56.24:282][407]CompilerResultsLog: Información   Running UnrealHeaderTool "C:\Users\user\Documents\Unreal Projects\udemy\BuildingEscape\BuildingEscape.uproject" "C:\Users\user\Documents\Unreal Projects\udemy\BuildingEscape\Intermediate\Build\Win64\BuildingEscapeEditor\Development\BuildingEscapeEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2016.12.01-19.56.24:283][407]CompilerResultsLog: Información Reflection code generated for BuildingEscapeEditor in 5,3766351 seconds
+[2016.12.01-19.56.24:283][407]CompilerResultsLog: Información Performing 3 actions (4 in parallel)
+[2016.12.01-19.56.24:283][407]CompilerResultsLog: Información OpenDoor.cpp
+[2016.12.01-19.56.24:283][407]CompilerResultsLog: Información BuildingEscape.generated.cpp
+[2016.12.01-19.56.24:283][407]CompilerResultsLog: Información [3/3] Link UE4Editor-BuildingEscape-2494.dll
+[2016.12.01-19.56.24:283][407]CompilerResultsLog: Información    Creating library C:\Users\user\Documents\Unreal Projects\udemy\BuildingEscape\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-BuildingEscape-2494.lib and object C:\Users\user\Documents\Unreal Projects\udemy\BuildingEscape\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-BuildingEscape-2494.exp
+[2016.12.01-19.56.24:284][407]CompilerResultsLog: Información Total build time: 10,41 seconds
+[2016.12.01-19.56.24:284][407]LogMainFrame: MainFrame: Module compiling took 10.643 seconds
+[2016.12.01-19.56.24:429][407]LogClass: Could not find existing class OpenDoor in package /Script/BuildingEscape for HotReload, assuming new class
+[2016.12.01-19.56.24:433][407]LogHotReload: Re-instancing OpenDoor after hot-reload.
+[2016.12.01-19.56.24:487][407]LogContentBrowser: Native class hierarchy updated for 'BuildingEscape' in 0.0026 seconds. Added 3 classes and 2 folders.
+[2016.12.01-19.56.24:490][407]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2016.12.01-19.56.24:532][407]LogContentBrowser: Native class hierarchy populated in 0.0148 seconds. Added 2195 classes and 434 folders.
+[2016.12.01-19.56.24:532][407]Display: HotReload took 10.9s.
+[2016.12.01-19.56.38:253][ 90]LogSavePackage: Save=42.60ms
+[2016.12.01-19.56.38:254][ 90]LogSavePackage: Moving '../../../../../../Users/user/Documents/Unreal Projects/udemy/BuildingEscape/Saved/NewMap_Auto4DF7A12084965594C8F5BCE9B8D141E42.tmp' to '../../../../../../Users/user/Documents/Unreal Projects/udemy/BuildingEscape/Saved/Autosaves/Game/NewMap_Auto4.umap'
+[2016.12.01-19.56.38:260][ 90]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/user/Documents/Unreal Projects/udemy/BuildingEscape/Saved/Autosaves/Game/NewMap_Auto4.umap
+[2016.12.01-19.56.38:267][ 90]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/NewMap_BuiltData" FILE="../../../../../../Users/user/Documents/Unreal Projects/udemy/BuildingEscape/Content/NewMap_BuiltData.uasset" SILENT=true
+[2016.12.01-19.56.38:306][ 90]LogSavePackage: Save=21.54ms
+[2016.12.01-19.56.38:306][ 90]LogSavePackage: Moving '../../../../../../Users/user/Documents/Unreal Projects/udemy/BuildingEscape/Saved/NewMap_BuiltDataDD3E64B74BB1D5D937BB4DBA45D1DCB8.tmp' to '../../../../../../Users/user/Documents/Unreal Projects/udemy/BuildingEscape/Content/NewMap_BuiltData.uasset'
+[2016.12.01-19.56.38:309][ 90]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/user/Documents/Unreal Projects/udemy/BuildingEscape/Content/NewMap_BuiltData.uasset
+[2016.12.01-19.56.38:311][ 90]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/NewMap' took 0.136
+[2016.12.01-19.56.38:312][ 90]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.136
+[2016.12.01-20.27.16:508][884]LogTemp: Repeting last play command: Selected Viewport
+[2016.12.01-20.27.16:523][884]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.12.01-20.27.16:524][884]PIE: New page: Sesión PIE (reproducción en el editor): NewMap (1/12/2016 22:27:16)
+[2016.12.01-20.27.16:524][884]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_NewMap
+[2016.12.01-20.27.16:531][884]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006751s)
+[2016.12.01-20.27.16:532][884]LogAIModule: Creating AISystem for world NewMap
+[2016.12.01-20.27.16:533][884]LogPlayLevel: PIE: World Init took: (0.001654s)
+[2016.12.01-20.27.16:533][884]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/NewMap.NewMap to /Game/UEDPIE_0_NewMap.NewMap (0.009178s)
+[2016.12.01-20.27.16:576][884]LogInit: XAudio2 using 'Philips 244E-4 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2016.12.01-20.27.16:587][884]LogInit: FAudioDevice initialized.
+[2016.12.01-20.27.16:621][884]LogLoad: Game class is 'BuildingEscapeGameModeBase'
+[2016.12.01-20.27.16:624][884]LogWorld: Bringing World /Game/UEDPIE_0_NewMap.NewMap up for play (max tick rate 0) at 2016.12.01-21.27.16
+[2016.12.01-20.27.16:624][884]LogWorld: Bringing up level for play took: 0.002512
+[2016.12.01-20.27.16:626][884]LogTemp:Warning: SM_Chair_2 is at X=-425.000 Y=-392.000 Z=20.000
+[2016.12.01-20.27.16:627][884]PIE: Información Tiempo de inicio de la reproducción en el editor para  /Game/UEDPIE_0_NewMap -0,13
+[2016.12.01-20.27.36:511][896]LogTemp: Repeting last play command: Selected Viewport
+[2016.12.01-20.27.36:528][896]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.12.01-20.27.36:528][896]PIE: New page: Sesión PIE (reproducción en el editor): NewMap (1/12/2016 22:27:36)
+[2016.12.01-20.27.36:528][896]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_NewMap
+[2016.12.01-20.27.36:534][896]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005944s)
+[2016.12.01-20.27.36:536][896]LogAIModule: Creating AISystem for world NewMap
+[2016.12.01-20.27.36:537][896]LogPlayLevel: PIE: World Init took: (0.001900s)
+[2016.12.01-20.27.36:537][896]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/NewMap.NewMap to /Game/UEDPIE_0_NewMap.NewMap (0.008669s)
+[2016.12.01-20.27.36:578][896]LogInit: XAudio2 using 'Philips 244E-4 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2016.12.01-20.27.36:586][896]LogInit: FAudioDevice initialized.
+[2016.12.01-20.27.36:623][896]LogLoad: Game class is 'BuildingEscapeGameModeBase'
+[2016.12.01-20.27.36:626][896]LogWorld: Bringing World /Game/UEDPIE_0_NewMap.NewMap up for play (max tick rate 0) at 2016.12.01-21.27.36
+[2016.12.01-20.27.36:626][896]LogWorld: Bringing up level for play took: 0.002336
+[2016.12.01-20.27.36:628][896]LogTemp:Warning: SM_Chair_2 is at X=-425.000 Y=-392.000 Z=20.000
+[2016.12.01-20.27.36:628][896]PIE: Información Tiempo de inicio de la reproducción en el editor para  /Game/UEDPIE_0_NewMap -0,129
+[2016.12.01-20.27.49:248][514]LogTemp: Repeting last play command: Selected Viewport
+[2016.12.01-20.27.49:263][514]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.12.01-20.27.49:263][514]PIE: New page: Sesión PIE (reproducción en el editor): NewMap (1/12/2016 22:27:49)
+[2016.12.01-20.27.49:263][514]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_NewMap
+[2016.12.01-20.27.49:269][514]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005600s)
+[2016.12.01-20.27.49:270][514]LogAIModule: Creating AISystem for world NewMap
+[2016.12.01-20.27.49:271][514]LogPlayLevel: PIE: World Init took: (0.001437s)
+[2016.12.01-20.27.49:271][514]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/NewMap.NewMap to /Game/UEDPIE_0_NewMap.NewMap (0.007887s)
+[2016.12.01-20.27.49:310][514]LogInit: XAudio2 using 'Philips 244E-4 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2016.12.01-20.27.49:316][514]LogInit: FAudioDevice initialized.
+[2016.12.01-20.27.49:351][514]LogLoad: Game class is 'BuildingEscapeGameModeBase'
+[2016.12.01-20.27.49:354][514]LogWorld: Bringing World /Game/UEDPIE_0_NewMap.NewMap up for play (max tick rate 0) at 2016.12.01-21.27.49
+[2016.12.01-20.27.49:355][514]LogWorld: Bringing up level for play took: 0.002190
+[2016.12.01-20.27.49:356][514]LogTemp:Warning: SM_Chair_2 is at X=-425.000 Y=-392.000 Z=20.000
+[2016.12.01-20.27.49:356][514]PIE: Información Tiempo de inicio de la reproducción en el editor para  /Game/UEDPIE_0_NewMap 0,6
+[2016.12.01-20.39.23:530][625]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/NewMap" FILE="../../../../../../Users/user/Documents/Unreal Projects/udemy/BuildingEscape/Content/NewMap.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2016.12.01-20.39.23:602][625]LogSavePackage: Save=42.41ms
+[2016.12.01-20.39.23:602][625]LogSavePackage: Moving '../../../../../../Users/user/Documents/Unreal Projects/udemy/BuildingEscape/Saved/NewMap633B2F3D40300EDA713FAB93592C6673.tmp' to '../../../../../../Users/user/Documents/Unreal Projects/udemy/BuildingEscape/Content/NewMap.umap'
+[2016.12.01-20.39.23:606][625]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/user/Documents/Unreal Projects/udemy/BuildingEscape/Content/NewMap.umap
+[2016.12.01-20.39.23:650][625]LogFileHelpers: Saving map 'NewMap' took 0.278
+[2016.12.01-20.39.23:733][625]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2016.12.01-20.39.24:028][626]Cmd: QUIT_EDITOR
+[2016.12.01-20.39.24:579][626]LogExit: Preparing to exit.
+[2016.12.01-20.39.25:164][626]LogDirectoryWatcher: A directory notification for 'C:/Users/user/Documents/Unreal Projects/udemy/BuildingEscape/Content/' was aborted.
+[2016.12.01-20.39.25:268][626]LogExit: Editor shut down
+[2016.12.01-20.39.25:270][626]LogExit: Transaction tracking system shut down
+[2016.12.01-20.39.25:489][626]LogObj: Freed 0b from 0 cluster array pools.
+[2016.12.01-20.39.25:490][626]LogExit: Object subsystem successfully closed.
+[2016.12.01-20.39.25:519][626]LogD3D11RHI: Shutdown
+[2016.12.01-20.39.25:519][626]LogD3D11RHI: CleanupD3DDevice
+[2016.12.01-20.39.25:673][626]LogD3D11RHI: ~FD3D11DynamicRHI
+[2016.12.01-20.39.25:735][626]LogHttp:Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2016.12.01-20.39.25:735][626]LogHttp:Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B2992C67F-4836-EE31-7EF5-32938C4E5EE3%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.14.0-3195953%2B%2B%2BUE4%2BRelease-4.14&UserID=0eac92404feefc51d49b8f9a3c93c30a%7Ce2195799c31a4294ba0badb4acc8b132%7Cfc128a79-c7d3-47c9-a47a-322eb38aa5e6&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2016.12.01-20.39.25:758][626]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (244)
+[2016.12.01-20.39.25:758][626]LogModuleManager: Shutting down and abandoning module StaticMeshEditor (243)
+[2016.12.01-20.39.25:758][626]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (242)
+[2016.12.01-20.39.25:758][626]LogModuleManager: Shutting down and abandoning module CrashTracker (241)
+[2016.12.01-20.39.25:758][626]LogModuleManager: Shutting down and abandoning module SceneOutliner (240)
+[2016.12.01-20.39.25:759][626]LogModuleManager: Shutting down and abandoning module WidgetCarousel (239)
+[2016.12.01-20.39.25:759][626]LogModuleManager: Shutting down and abandoning module AddContentDialog (238)
+[2016.12.01-20.39.25:760][626]LogDirectoryWatcher: A directory notification for 'C:/Program Files (x86)/Epic Games/4.14/FeaturePacks/' was aborted.
+[2016.12.01-20.39.25:772][626]LogModuleManager: Shutting down and abandoning module GameplayTags (237)
+[2016.12.01-20.39.25:772][626]LogModuleManager: Shutting down and abandoning module EditorWidgets (236)
+[2016.12.01-20.39.25:772][626]LogModuleManager: Shutting down and abandoning module CollectionManager (235)
+[2016.12.01-20.39.25:773][626]LogDirectoryWatcher: A directory notification for 'C:/Users/user/Documents/Unreal Projects/udemy/BuildingEscape/Content/Collections/' was aborted.
+[2016.12.01-20.39.25:773][626]LogDirectoryWatcher: A directory notification for 'C:/Users/user/Documents/Unreal Projects/udemy/BuildingEscape/Content/Developers/user/Collections/' was aborted.
+[2016.12.01-20.39.25:773][626]LogDirectoryWatcher: A directory notification for 'C:/Users/user/Documents/Unreal Projects/udemy/BuildingEscape/Saved/Collections/' was aborted.
+[2016.12.01-20.39.25:773][626]LogModuleManager: Shutting down and abandoning module StatsViewer (234)
+[2016.12.01-20.39.25:774][626]LogModuleManager: Shutting down and abandoning module FoliageEdit (233)
+[2016.12.01-20.39.25:774][626]LogModuleManager: Shutting down and abandoning module LandscapeEditor (232)
+[2016.12.01-20.39.25:775][626]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (231)
+[2016.12.01-20.39.25:775][626]LogModuleManager: Shutting down and abandoning module ActorPickerMode (230)
+[2016.12.01-20.39.25:775][626]LogModuleManager: Shutting down and abandoning module GeometryMode (229)
+[2016.12.01-20.39.25:775][626]LogModuleManager: Shutting down and abandoning module TextureAlignMode (228)
+[2016.12.01-20.39.25:776][626]LogModuleManager: Shutting down and abandoning module BspMode (227)
+[2016.12.01-20.39.25:776][626]LogModuleManager: Shutting down and abandoning module HardwareSurvey (226)
+[2016.12.01-20.39.25:776][626]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (225)
+[2016.12.01-20.39.25:776][626]LogModuleManager: Shutting down and abandoning module AutomationWorker (224)
+[2016.12.01-20.39.25:777][626]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (223)
+[2016.12.01-20.39.25:777][626]LogModuleManager: Shutting down and abandoning module PlacementMode (222)
+[2016.12.01-20.39.25:778][626]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (221)
+[2016.12.01-20.39.25:780][626]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (220)
+[2016.12.01-20.39.25:780][626]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (219)
+[2016.12.01-20.39.25:780][626]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (218)
+[2016.12.01-20.39.25:780][626]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (217)
+[2016.12.01-20.39.25:780][626]LogModuleManager: Shutting down and abandoning module Media (216)
+[2016.12.01-20.39.25:780][626]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (215)
+[2016.12.01-20.39.25:780][626]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (214)
+[2016.12.01-20.39.25:780][626]LogModuleManager: Shutting down and abandoning module CharacterAI (213)
+[2016.12.01-20.39.25:780][626]LogModuleManager: Shutting down and abandoning module SequenceRecorder (212)
+[2016.12.01-20.39.25:781][626]LogModuleManager: Shutting down and abandoning module AudioCapture (211)
+[2016.12.01-20.39.25:781][626]LogModuleManager: Shutting down and abandoning module SmartSnapping (210)
+[2016.12.01-20.39.25:781][626]LogModuleManager: Shutting down and abandoning module SessionServices (209)
+[2016.12.01-20.39.25:781][626]LogModuleManager: Shutting down and abandoning module ViewportSnapping (208)
+[2016.12.01-20.39.25:782][626]LogModuleManager: Shutting down and abandoning module ViewportInteraction (207)
+[2016.12.01-20.39.25:782][626]LogModuleManager: Shutting down and abandoning module LogVisualizer (206)
+[2016.12.01-20.39.25:783][626]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (205)
+[2016.12.01-20.39.25:784][626]LogModuleManager: Shutting down and abandoning module IntroTutorials (204)
+[2016.12.01-20.39.25:785][626]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (203)
+[2016.12.01-20.39.25:785][626]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (202)
+[2016.12.01-20.39.25:785][626]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (201)
+[2016.12.01-20.39.25:785][626]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (200)
+[2016.12.01-20.39.26:064][626]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (199)
+[2016.12.01-20.39.26:065][626]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (198)
+[2016.12.01-20.39.26:065][626]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (197)
+[2016.12.01-20.39.26:065][626]LogModuleManager: Shutting down and abandoning module InputBindingEditor (196)
+[2016.12.01-20.39.26:065][626]LogModuleManager: Shutting down and abandoning module NiagaraEditor (195)
+[2016.12.01-20.39.26:066][626]LogModuleManager: Shutting down and abandoning module MergeActors (194)
+[2016.12.01-20.39.26:067][626]LogModuleManager: Shutting down and abandoning module SizeMap (193)
+[2016.12.01-20.39.26:067][626]LogModuleManager: Shutting down and abandoning module TreeMap (192)
+[2016.12.01-20.39.26:068][626]LogModuleManager: Shutting down and abandoning module ReferenceViewer (191)
+[2016.12.01-20.39.26:068][626]LogModuleManager: Shutting down and abandoning module LocalizationService (190)
+[2016.12.01-20.39.26:068][626]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (189)
+[2016.12.01-20.39.26:069][626]LogModuleManager: Shutting down and abandoning module HardwareTargeting (188)
+[2016.12.01-20.39.26:069][626]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (187)
+[2016.12.01-20.39.26:070][626]LogModuleManager: Shutting down and abandoning module UndoHistory (186)
+[2016.12.01-20.39.26:070][626]LogModuleManager: Shutting down and abandoning module UserFeedback (185)
+[2016.12.01-20.39.26:070][626]LogModuleManager: Shutting down and abandoning module XmlParser (184)
+[2016.12.01-20.39.26:070][626]LogModuleManager: Shutting down and abandoning module Blutility (183)
+[2016.12.01-20.39.26:071][626]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (182)
+[2016.12.01-20.39.26:071][626]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (181)
+[2016.12.01-20.39.26:071][626]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (180)
+[2016.12.01-20.39.26:071][626]LogModuleManager: Shutting down and abandoning module SettingsEditor (179)
+[2016.12.01-20.39.26:073][626]LogModuleManager: Shutting down and abandoning module ProjectLauncher (178)
+[2016.12.01-20.39.26:073][626]LogModuleManager: Shutting down and abandoning module SessionFrontend (177)
+[2016.12.01-20.39.26:074][626]LogModuleManager: Shutting down and abandoning module ProfilerClient (176)
+[2016.12.01-20.39.26:075][626]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (175)
+[2016.12.01-20.39.26:075][626]LogModuleManager: Shutting down and abandoning module DeviceManager (174)
+[2016.12.01-20.39.26:119][626]LogModuleManager: Shutting down and abandoning module AutomationController (173)
+[2016.12.01-20.39.26:120][626]LogModuleManager: Shutting down and abandoning module AutomationWindow (172)
+[2016.12.01-20.39.26:121][626]LogModuleManager: Shutting down and abandoning module Layers (171)
+[2016.12.01-20.39.26:123][626]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (170)
+[2016.12.01-20.39.26:123][626]LogModuleManager: Shutting down and abandoning module DetailCustomizations (169)
+[2016.12.01-20.39.26:123][626]LogModuleManager: Shutting down and abandoning module PackagesDialog (168)
+[2016.12.01-20.39.26:124][626]LogModuleManager: Shutting down and abandoning module AnimGraph (167)
+[2016.12.01-20.39.26:124][626]LogModuleManager: Shutting down and abandoning module Persona (166)
+[2016.12.01-20.39.26:124][626]LogModuleManager: Shutting down and abandoning module Kismet (165)
+[2016.12.01-20.39.26:125][626]LogModuleManager: Shutting down and abandoning module GraphEditor (164)
+[2016.12.01-20.39.26:127][626]LogModuleManager: Shutting down and abandoning module ClassViewer (163)
+[2016.12.01-20.39.26:128][626]LogModuleManager: Shutting down and abandoning module Toolbox (162)
+[2016.12.01-20.39.26:128][626]LogModuleManager: Shutting down and abandoning module ModuleUI (161)
+[2016.12.01-20.39.26:129][626]LogModuleManager: Shutting down and abandoning module MovieSceneTools (160)
+[2016.12.01-20.39.26:130][626]LogModuleManager: Shutting down and abandoning module OutputLog (159)
+[2016.12.01-20.39.26:130][626]LogModuleManager: Shutting down and abandoning module GammaUI (158)
+[2016.12.01-20.39.26:130][626]LogModuleManager: Shutting down and abandoning module Documentation (157)
+[2016.12.01-20.39.26:130][626]LogModuleManager: Shutting down and abandoning module Niagara (156)
+[2016.12.01-20.39.26:130][626]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (155)
+[2016.12.01-20.39.26:130][626]LogModuleManager: Shutting down and abandoning module AnalyticsET (154)
+[2016.12.01-20.39.26:130][626]LogModuleManager: Shutting down and abandoning module PortalServices (153)
+[2016.12.01-20.39.26:130][626]LogModuleManager: Shutting down and abandoning module PortalRpc (152)
+[2016.12.01-20.39.26:130][626]LogModuleManager: Shutting down and abandoning module MessagingRpc (151)
+[2016.12.01-20.39.26:130][626]LogModuleManager: Shutting down and abandoning module GameplayDebugger (150)
+[2016.12.01-20.39.26:130][626]LogModuleManager: Shutting down and abandoning module AITestSuite (149)
+[2016.12.01-20.39.26:131][626]LogModuleManager: Shutting down and abandoning module AIModule (148)
+[2016.12.01-20.39.26:131][626]LogModuleManager: Shutting down and abandoning module ProfilerService (147)
+[2016.12.01-20.39.26:187][626]LogModuleManager: Shutting down and abandoning module TaskGraph (146)
+[2016.12.01-20.39.26:188][626]LogModuleManager: Shutting down and abandoning module SlateRemote (145)
+[2016.12.01-20.39.26:188][626]LogModuleManager: Shutting down and abandoning module SteamVRController (144)
+[2016.12.01-20.39.26:188][626]LogModuleManager: Shutting down and abandoning module SteamVR (143)
+[2016.12.01-20.39.26:188][626]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (142)
+[2016.12.01-20.39.26:189][626]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (141)
+[2016.12.01-20.39.26:189][626]LogModuleManager: Shutting down and abandoning module OculusLibrary (140)
+[2016.12.01-20.39.26:189][626]LogModuleManager: Shutting down and abandoning module OculusInput (139)
+[2016.12.01-20.39.26:189][626]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (138)
+[2016.12.01-20.39.26:189][626]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (137)
+[2016.12.01-20.39.26:189][626]LogModuleManager: Shutting down and abandoning module CableComponent (136)
+[2016.12.01-20.39.26:190][626]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (135)
+[2016.12.01-20.39.26:190][626]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (133)
+[2016.12.01-20.39.26:192][626]LogModuleManager: Shutting down and abandoning module HTML5Networking (132)
+[2016.12.01-20.39.26:192][626]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (131)
+[2016.12.01-20.39.26:192][626]LogModuleManager: Shutting down and abandoning module GeometryCache (130)
+[2016.12.01-20.39.26:192][626]LogModuleManager: Shutting down and abandoning module AlembicLibrary (129)
+[2016.12.01-20.39.26:193][626]LogModuleManager: Shutting down and abandoning module AlembicImporter (128)
+[2016.12.01-20.39.26:193][626]LogModuleManager: Shutting down and abandoning module SuperSearch (127)
+[2016.12.01-20.39.26:193][626]LogModuleManager: Shutting down and abandoning module SuperSearchEditor (126)
+[2016.12.01-20.39.26:193][626]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (125)
+[2016.12.01-20.39.26:193][626]LogModuleManager: Shutting down and abandoning module PluginBrowser (124)
+[2016.12.01-20.39.26:194][626]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (123)
+[2016.12.01-20.39.26:195][626]LogModuleManager: Shutting down and abandoning module EpicSurvey (122)
+[2016.12.01-20.39.26:196][626]LogModuleManager: Shutting down and abandoning module DesktopPlatform (121)
+[2016.12.01-20.39.26:196][626]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (120)
+[2016.12.01-20.39.26:196][626]LogModuleManager: Shutting down and abandoning module UObjectPlugin (119)
+[2016.12.01-20.39.26:196][626]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (118)
+[2016.12.01-20.39.26:197][626]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (117)
+[2016.12.01-20.39.26:198][626]LogModuleManager: Shutting down and abandoning module SourceControl (116)
+[2016.12.01-20.39.26:199][626]LogModuleManager: Shutting down and abandoning module GitSourceControl (115)
+[2016.12.01-20.39.26:199][626]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (114)
+[2016.12.01-20.39.26:199][626]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (113)
+[2016.12.01-20.39.26:200][626]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (112)
+[2016.12.01-20.39.26:200][626]LogModuleManager: Shutting down and abandoning module MeshPaint (111)
+[2016.12.01-20.39.26:200][626]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (110)
+[2016.12.01-20.39.26:200][626]LogModuleManager: Shutting down and abandoning module HotReload (109)
+[2016.12.01-20.39.26:200][626]LogDirectoryWatcher: A directory notification for 'C:/Users/user/Documents/Unreal Projects/udemy/BuildingEscape/Binaries/Win64' was aborted.
+[2016.12.01-20.39.26:201][626]LogModuleManager: Shutting down and abandoning module MainFrame (108)
+[2016.12.01-20.39.26:201][626]LogModuleManager: Shutting down and abandoning module LevelEditor (107)
+[2016.12.01-20.39.26:204][626]LogModuleManager: Shutting down and abandoning module ContentBrowser (106)
+[2016.12.01-20.39.26:206][626]LogModuleManager: Shutting down and abandoning module Paper2DEditor (105)
+[2016.12.01-20.39.26:207][626]LogModuleManager: Shutting down and abandoning module BuildingEscape (104)
+[2016.12.01-20.39.26:207][626]LogModuleManager: Shutting down and abandoning module UdpMessaging (103)
+[2016.12.01-20.39.26:308][626]LogModuleManager: Shutting down and abandoning module TcpMessaging (102)
+[2016.12.01-20.39.26:409][626]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (101)
+[2016.12.01-20.39.26:409][626]LogModuleManager: Shutting down and abandoning module Paper2D (100)
+[2016.12.01-20.39.26:409][626]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (99)
+[2016.12.01-20.39.26:410][626]LogModuleManager: Shutting down and abandoning module WmfMedia (98)
+[2016.12.01-20.39.26:411][626]LogModuleManager: Shutting down and abandoning module MediaAssets (97)
+[2016.12.01-20.39.26:411][626]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (96)
+[2016.12.01-20.39.26:411][626]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (95)
+[2016.12.01-20.39.26:411][626]LogModuleManager: Shutting down and abandoning module VREditor (94)
+[2016.12.01-20.39.26:411][626]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (93)
+[2016.12.01-20.39.26:411][626]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (92)
+[2016.12.01-20.39.26:412][626]LogModuleManager: Shutting down and abandoning module FunctionalTesting (91)
+[2016.12.01-20.39.26:413][626]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (90)
+[2016.12.01-20.39.26:414][626]LogModuleManager: Shutting down and abandoning module Sequencer (89)
+[2016.12.01-20.39.26:415][626]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (88)
+[2016.12.01-20.39.26:416][626]LogModuleManager: Shutting down and abandoning module MessageLog (87)
+[2016.12.01-20.39.26:416][626]LogModuleManager: Shutting down and abandoning module AssetTools (86)
+[2016.12.01-20.39.26:418][626]LogModuleManager: Shutting down and abandoning module UMGEditor (85)
+[2016.12.01-20.39.26:420][626]LogModuleManager: Shutting down and abandoning module UMG (84)
+[2016.12.01-20.39.26:421][626]LogModuleManager: Shutting down and abandoning module SlateReflector (83)
+[2016.12.01-20.39.26:423][626]LogModuleManager: Shutting down and abandoning module Slate (82)
+[2016.12.01-20.39.26:423][626]LogModuleManager: Shutting down and abandoning module EditorStyle (81)
+[2016.12.01-20.39.26:429][626]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (80)
+[2016.12.01-20.39.26:429][626]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (79)
+[2016.12.01-20.39.26:429][626]LogModuleManager: Shutting down and abandoning module XAudio2 (78)
+[2016.12.01-20.39.26:429][626]LogModuleManager: Shutting down and abandoning module Networking (76)
+[2016.12.01-20.39.26:429][626]LogModuleManager: Shutting down and abandoning module Core (75)
+[2016.12.01-20.39.26:429][626]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (74)
+[2016.12.01-20.39.26:429][626]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
+[2016.12.01-20.39.26:430][626]LogDirectoryWatcher: A directory notification for '../../../../../../Users/user/Documents/Unreal Projects/udemy/BuildingEscape/Content/' was aborted.
+[2016.12.01-20.39.26:431][626]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
+[2016.12.01-20.39.26:436][626]LogModuleManager: Shutting down and abandoning module AssetRegistry (73)
+[2016.12.01-20.39.26:649][626]LogModuleManager: Shutting down and abandoning module KismetCompiler (72)
+[2016.12.01-20.39.26:649][626]LogModuleManager: Shutting down and abandoning module PhysXFormats (71)
+[2016.12.01-20.39.26:649][626]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (70)
+[2016.12.01-20.39.26:649][626]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (69)
+[2016.12.01-20.39.26:650][626]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (68)
+[2016.12.01-20.39.26:650][626]LogModuleManager: Shutting down and abandoning module PropertyEditor (67)
+[2016.12.01-20.39.26:650][626]LogModuleManager: Shutting down and abandoning module MeshUtilities (66)
+[2016.12.01-20.39.26:652][626]LogModuleManager: Shutting down and abandoning module DerivedDataCache (65)
+[2016.12.01-20.39.26:743][626]LogDerivedDataCache: Shutdown
+[2016.12.01-20.39.26:743][626]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (64)
+[2016.12.01-20.39.26:744][626]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (63)
+[2016.12.01-20.39.26:744][626]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (62)
+[2016.12.01-20.39.26:745][626]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (61)
+[2016.12.01-20.39.26:745][626]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (60)
+[2016.12.01-20.39.26:745][626]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (59)
+[2016.12.01-20.39.26:746][626]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (58)
+[2016.12.01-20.39.26:746][626]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (57)
+[2016.12.01-20.39.26:747][626]LogModuleManager: Shutting down and abandoning module ImageWrapper (56)
+[2016.12.01-20.39.26:747][626]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (55)
+[2016.12.01-20.39.26:747][626]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (54)
+[2016.12.01-20.39.26:747][626]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (53)
+[2016.12.01-20.39.26:747][626]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (52)
+[2016.12.01-20.39.26:747][626]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (51)
+[2016.12.01-20.39.26:747][626]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (50)
+[2016.12.01-20.39.26:747][626]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (49)
+[2016.12.01-20.39.26:748][626]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (48)
+[2016.12.01-20.39.26:748][626]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (47)
+[2016.12.01-20.39.26:748][626]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (46)
+[2016.12.01-20.39.26:749][626]LogModuleManager: Shutting down and abandoning module Messaging (45)
+[2016.12.01-20.39.26:749][626]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (44)
+[2016.12.01-20.39.26:749][626]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (43)
+[2016.12.01-20.39.26:749][626]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (42)
+[2016.12.01-20.39.26:749][626]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (41)
+[2016.12.01-20.39.26:749][626]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (40)
+[2016.12.01-20.39.26:749][626]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (39)
+[2016.12.01-20.39.26:749][626]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (38)
+[2016.12.01-20.39.26:749][626]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (37)
+[2016.12.01-20.39.26:749][626]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (36)
+[2016.12.01-20.39.26:749][626]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (35)
+[2016.12.01-20.39.26:749][626]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (34)
+[2016.12.01-20.39.26:749][626]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (33)
+[2016.12.01-20.39.26:749][626]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (32)
+[2016.12.01-20.39.26:749][626]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (31)
+[2016.12.01-20.39.26:750][626]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (30)
+[2016.12.01-20.39.26:750][626]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (29)
+[2016.12.01-20.39.26:750][626]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (28)
+[2016.12.01-20.39.26:750][626]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (27)
+[2016.12.01-20.39.26:750][626]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (26)
+[2016.12.01-20.39.26:750][626]LogModuleManager: Shutting down and abandoning module TargetPlatform (25)
+[2016.12.01-20.39.26:750][626]LogModuleManager: Shutting down and abandoning module InputCore (24)
+[2016.12.01-20.39.26:750][626]LogModuleManager: Shutting down and abandoning module Settings (23)
+[2016.12.01-20.39.26:750][626]LogModuleManager: Shutting down and abandoning module OculusRift (22)
+[2016.12.01-20.39.26:750][626]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (21)
+[2016.12.01-20.39.26:751][626]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (20)
+[2016.12.01-20.39.26:751][626]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (18)
+[2016.12.01-20.39.26:751][626]LogOnline:Display: Unloading online subsystem: NULL
+[2016.12.01-20.39.26:751][626]LogModuleManager: Shutting down and abandoning module SSL (17)
+[2016.12.01-20.39.26:754][626]LogModuleManager: Shutting down and abandoning module HTTP (16)
+[2016.12.01-20.39.26:754][626]LogModuleManager: Shutting down and abandoning module XMPP (15)
+[2016.12.01-20.39.26:756][626]LogModuleManager: Shutting down and abandoning module TextureCompressor (14)
+[2016.12.01-20.39.26:756][626]LogModuleManager: Shutting down and abandoning module ShaderCore (13)
+[2016.12.01-20.39.26:756][626]LogModuleManager: Shutting down and abandoning module Landscape (12)
+[2016.12.01-20.39.26:756][626]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (11)
+[2016.12.01-20.39.26:765][626]LogModuleManager: Shutting down and abandoning module OpenGLDrv (10)
+[2016.12.01-20.39.26:766][626]LogModuleManager: Shutting down and abandoning module D3D11RHI (9)
+[2016.12.01-20.39.26:766][626]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (8)
+[2016.12.01-20.39.26:766][626]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2016.12.01-20.39.26:766][626]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2016.12.01-20.39.26:766][626]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2016.12.01-20.39.26:766][626]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2016.12.01-20.39.26:767][626]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2016.12.01-20.39.26:767][626]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2016.12.01-20.39.26:767][626]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2016.12.01-20.39.26:770][626]LogExit: Exiting.
+[2016.12.01-20.39.26:778][626]Log file closed, 12/01/16 21:39:26
