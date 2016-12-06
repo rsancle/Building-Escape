@@ -1,9 +1,0 @@
-{
-	"Changelist" : 3195953,
-	"CompatibleChangelist" : 0,
-	"BuildId" : "018013a6-e8db-44c4-a4e5-cf58ed6f07ec",
-	"Modules" : 
-	{
-		"BuildingEscape" : "UE4Editor-BuildingEscape-2511.dll"
-	}
-}
