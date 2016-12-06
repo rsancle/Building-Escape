@@ -17,7 +17,7 @@ public:
 
 	// Called when the game starts
 	virtual void BeginPlay() override;
-	
+
 	// Called every frame
 	virtual void TickComponent( float DeltaTime, ELevelTick TickType, FActorComponentTickFunction* ThisTickFunction ) override;
 
@@ -26,4 +26,23 @@ private:
 	//How far ahead of the player can we ewach in cm
 	float Reach = 100.f;
 	UPhysicsHandleComponent* PhysicsHandle = nullptr;
+
+	UInputComponent* InputComponent = nullptr;
+
+
+	// Ray-cast and grab what's in reach
+	void Grab();
+
+	//Called when grab is release
+	void Release();
+
+	// Find attached fisics handle
+	void FindHandlePhysicsComponent();
+
+	// Setup input component
+	void SetupInputComponent();
+
+	//Return hit for first physiscs body in reach
+
+	const FHitResult GetFirstPhysicsBodyInReach();
 };
