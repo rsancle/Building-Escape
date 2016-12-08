@@ -21,6 +21,8 @@ public:
 	// Called every frame
 	virtual void TickComponent( float DeltaTime, ELevelTick TickType, FActorComponentTickFunction* ThisTickFunction ) override;
 
+	
+
 private:
 
 	//How far ahead of the player can we ewach in cm
@@ -43,6 +45,11 @@ private:
 	void SetupInputComponent();
 
 	//Return hit for first physiscs body in reach
-
 	const FHitResult GetFirstPhysicsBodyInReach();
+
+	// Return current start of read line reach
+	FVector GetReachLineStart();
+
+	// Return current end of read line reach
+	FVector GetReachLineEnd();
 };
