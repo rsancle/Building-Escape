@@ -24,6 +24,8 @@ public:
 	// Called every frame
 	virtual void TickComponent( float DeltaTime, ELevelTick TickType, FActorComponentTickFunction* ThisTickFunction ) override;
 
+	
+
 private:
 	//unreal macro
 	UPROPERTY(EditAnywhere)
@@ -38,7 +40,10 @@ private:
 	float LastDoorOpenTime;
 	
 	//UPROPERTY(EditAnywhere)
-	AActor* ActorThatOpens; //Remember pawn inherits from actor
+
 	AActor* Owner; //the owning door
+
+	// Returns total mass in kg
+	float GetTotalMassOfActorInPlate();
 	
 };
