@@ -23,6 +23,10 @@ void UOpenDoor::BeginPlay()
 
 	// Find the owning Actor
 	Owner = GetOwner();
+
+	if (!PressurePlate) {
+		UE_LOG(LogTemp, Error, TEXT("%s missing presure plate"), *Owner->GetName())
+	}
 }
 
 void UOpenDoor::OpenDoor()
@@ -30,6 +34,7 @@ void UOpenDoor::OpenDoor()
 	//create a rotator
 	FRotator NewRotation = FRotator(0.f, OpenAngle, 0.f);
 	//set new rotator
+
 	Owner->SetActorRotation(NewRotation);
 }
 
@@ -66,6 +71,7 @@ float UOpenDoor::GetTotalMassOfActorInPlate()
 {
 	float TotalMass = 0.f;
 	TArray<AActor*> OverlappingActors;
+	if (!PressurePlate) { return TotalMass; }
 	PressurePlate->GetOverlappingActors(OUT OverlappingActors);
 
 	for (auto& OverlapActor : OverlappingActors)
