@@ -32,10 +32,13 @@ void UOpenDoor::BeginPlay()
 void UOpenDoor::OpenDoor()
 {
 	//create a rotator
-	FRotator NewRotation = FRotator(0.f, OpenAngle, 0.f);
+	//FRotator NewRotation = FRotator(0.f, OpenAngle, 0.f);
 	//set new rotator
+	//Owner->SetActorRotation(NewRotation);
 
-	Owner->SetActorRotation(NewRotation);
+	//from blueprint
+
+	OnOpenRequest.Broadcast();
 }
 
 void UOpenDoor::CloseDoor()
