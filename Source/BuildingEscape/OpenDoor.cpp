@@ -29,44 +29,19 @@ void UOpenDoor::BeginPlay()
 	}
 }
 
-void UOpenDoor::OpenDoor()
-{
-	//create a rotator
-	//FRotator NewRotation = FRotator(0.f, OpenAngle, 0.f);
-	//set new rotator
-	//Owner->SetActorRotation(NewRotation);
-
-	//from blueprint
-
-	OnOpenRequest.Broadcast();
-}
-
-void UOpenDoor::CloseDoor()
-{
-	//create a rotator
-	FRotator NewRotation = FRotator(0.f, 0.f, 0.f);
-	//set new rotator
-	Owner->SetActorRotation(NewRotation);
-}
-
-
 // Called every frame
 void UOpenDoor::TickComponent( float DeltaTime, ELevelTick TickType, FActorComponentTickFunction* ThisTickFunction )
 {
 	Super::TickComponent( DeltaTime, TickType, ThisTickFunction );
 
 	// Poll the Trigger Voume
-	if (GetTotalMassOfActorInPlate() > 30.f) // TODO make into a parameter
+	if (GetTotalMassOfActorInPlate() > TriggerMass) // TODO make into a parameter
 	{
-		OpenDoor();
-
-		LastDoorOpenTime = GetWorld()->GetTimeSeconds();
-	}
-
-	//Check if it's time to close the door
-	if (GetWorld()->GetTimeSeconds() - LastDoorOpenTime > DoorCloseDelay)
+		OnOpenRequest.Broadcast();
+	} 
+	else 
 	{
-		CloseDoor();
+		OnCloseRequest.Broadcast();
 	}
 }
 
@@ -80,6 +55,7 @@ float UOpenDoor::GetTotalMassOfActorInPlate()
 	for (auto& OverlapActor : OverlappingActors)
 	{
 		TotalMass += OverlapActor->FindComponentByClass<UPrimitiveComponent>()->GetMass();
+		UE_LOG(LogTemp, Warning, TEXT("%s on pressure plate"), *OverlapActor->GetName())
 	}
 	return TotalMass;
 }
